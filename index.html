@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-
+     <link rel="stylesheet" href="css/styles.css">
     <style>
         /* selector de etiquetas */
         body {
             background-color: rgb(18, 7, 75);
             font-family: Arial, sans-serif, sans-serif;
+            display: flex;
         }
 
         /*selector de id */
         #contenedor {
-            width: 80%;
+            float: left;
+            width: calc(80% - 40px);
             margin: 0 auto;
-            background-color: white;
+            background-color: rgb(180, 174, 180);
             padding: 20px;
         }
         /* selector de clase*/
@@ -53,7 +55,9 @@
             </ul>
         </nav>
 
-        <section>
+        <div class="clearfix"></div>
+
+        <section id="contenedor">
             <article class="article">
                 <h2>titulo de articulo 1</h2>
                 <p>texto</p>
@@ -80,10 +84,12 @@
             </form>
         </aside>
 
+        <div class="clearfix"></div>
+
         <footer>
             pie de pagina
         </footer>
     </div>
-        
+    
 </body>
 </html>

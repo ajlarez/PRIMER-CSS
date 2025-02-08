@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: rgb(69, 69, 71);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    border-bottom: 3px dashed black;
+    
+}
+
+nav{
+    background: rgb(250, 250, 250);
+    height: 50px;
+    border-bottom: 1px solid rgb(232, 10, 18);
+
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.article:firs-child{
+    border-bottom: 10 px;
+    border-top: 1px sold #ef0909
+    
+}
+
+aside{
+    float: right;
+    width: calc(20% - 20px);
+    background: rgb(70, 215, 4);
+    min-height: 500px;
+    padding-top: 50px;
+}
+
+footer{
+    background: #050005;
+    color: rgb(6, 0, 0);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.clearflix{
+    clear: both;
+    
+}
