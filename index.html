@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        /* selector de etiquetas */
+        body {
+            background-color: rgb(18, 7, 75);
+            font-family: Arial, sans-serif, sans-serif;
+        }
+
+        /*selector de id */
+        #contenedor {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+        }
+        /* selector de clase*/
+        .article{
+            color: rgb(5, 3, 0);
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+    </style>
 </head>
 <body>
-    <div>
+    <div id="contenedor"> 
         <header>
             <h1>titulo</h1>
         </header>
@@ -27,15 +52,34 @@
                 </li>
             </ul>
         </nav>
+
         <section>
+            <article class="article">
+                <h2>titulo de articulo 1</h2>
+                <p>texto</p>
+            </article clase="article">
+            <article>
+                <h2>titulo de articulo 2</h2>
+                <p>texto</p>
+            </article>
+            <article class="article">
+                <h2>titulo de articulo 3</h2>
+                <p>texto</p>
+            </article>
+            <article class="article">
+                <h2>titulo articulo 4</h2>
+                <p>texto</p>
+            </article>
 
         </section>
+
         <aside>
             <h2>barra lateral</h2>
             <form action="text">
                 <input type="text" value="buscar">
             </form>
         </aside>
+
         <footer>
             pie de pagina
         </footer>
